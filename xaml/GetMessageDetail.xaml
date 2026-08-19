@@ -1,0 +1,78 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    Title="Message tracking details" Height="500" Width="1000" WindowStartupLocation="CenterScreen"
+    ResizeMode="CanResize" Topmost="True" FontWeight="Bold" FontSize = "14" 
+>
+    
+    <Grid Margin="0,0,0,0" Background="White" ShowGridLines="false">
+		<Grid.RowDefinitions>            
+            <RowDefinition Height="Auto" />	
+			<RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />	
+            <RowDefinition Height="Auto" />			
+			<RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />	
+            <RowDefinition Height="Auto" />			
+		</Grid.RowDefinitions>
+
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>			
+		</Grid.ColumnDefinitions>
+        
+		
+		<Label   Name="lblTimestamp" Grid.Row="0" Grid.Column="0" Margin="5,10,10,0" Content="Timestamp" />
+		<TextBox Name="txtTimestamp" Grid.Row="0" Grid.Column="1" Margin="0,10,10,0" FontWeight="Normal" />
+		
+		<Label   Name="lblSource"    Grid.Row="0" Grid.Column="2" Margin="5,10,10,0" Content="Source" />
+		<TextBox Name="txtSource"    Grid.Row="0" Grid.Column="3" Margin="0,10,10,0" FontWeight="Normal"  />
+		
+		<Label   Name="lblEventId"   Grid.Row="0" Grid.Column="4" Margin="5,10,10,0" Content="EventId" />
+		<TextBox Name="txtEventId"   Grid.Row="0" Grid.Column="5" Margin="0,10,10,0" FontWeight="Normal"  />
+		
+		
+		<Label   Name="lblSourceContext" Grid.Row="1" Grid.Column="0" Margin="5,10,10,0" Content="SourceContext" />
+		<TextBox Name="txtSourceContext" Grid.Row="1" Grid.Column="1" Margin="0,10,10,0" FontWeight="Normal" Grid.ColumnSpan="6" />
+		
+		
+		<Label   Name="lblMessageId" Grid.Row="2" Grid.Column="0" Margin="5,10,10,0" Content="MessageId" />
+		<TextBox Name="txtMessageId" Grid.Row="2" Grid.Column="1" Margin="0,10,10,0" FontWeight="Normal" Grid.ColumnSpan="6" />
+		
+				
+		
+		<Label   Name="lblClientHostname" Grid.Row="3" Grid.Column="0" Margin="5,10,10,0" Content="ClientHostname" />
+		<TextBox Name="txtClientHostname" Grid.Row="3" Grid.Column="1" Margin="0,10,10,0" FontWeight="Normal"  />
+				
+		<Label   Name="lblServerHostname" Grid.Row="3" Grid.Column="2" Margin="5,10,10,0" Content="ServerHostname" />
+		<TextBox Name="txtServerHostname" Grid.Row="3" Grid.Column="3" Margin="0,10,10,0" FontWeight="Normal"  />
+			
+		<Label   Name="lblConnectorId"   Grid.Row="3" Grid.Column="4" Margin="5,10,10,0" Content="ConnectorId" />
+		<TextBox Name="txtConnectorId"   Grid.Row="3" Grid.Column="5" Margin="0,10,10,0" FontWeight="Normal"  />
+			
+		
+		<Label   Name="lblSender"  Grid.Row="4" Grid.Column="0" Margin="5,10,10,0" Content="Sender" />
+		<TextBox Name="txtSender"  Grid.Row="4" Grid.Column="1" Margin="0,10,10,0" FontWeight="Normal" />
+		
+		<Label   Name="lblSubject" Grid.Row="4" Grid.Column="2" Margin="5,10,10,0" Content="Subject" />
+		<TextBox Name="txtSubject" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="4" Margin="0,10,10,0" FontWeight="Normal"  />
+		
+		
+		<Label   Name="lblRecipients" Grid.Row="5" Grid.Column="0" Margin="5,10,10,0" Content="Recipients" />
+		<TextBox Name="txtRecipients" Grid.Row="5" Grid.Column="1" Margin="0,10,10,0" FontWeight="Normal"  
+			HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto" 
+			AcceptsReturn="True"  TextWrapping="Wrap" VerticalContentAlignment="Top"
+		/>
+
+		<Label   Name="lblRecipientStatus" Grid.Row="5" Grid.Column="2" Margin="10,10,0,0" Content="RecipientStatus" />
+		<TextBox Name="txtRecipientStatus" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="4" Margin="0,10,10,0" FontWeight="Normal"  
+			HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto" 
+			AcceptsReturn="True"  TextWrapping="Wrap" VerticalContentAlignment="Top"
+		/>	
+		
+		
+		<Button Name="cmdGetMsgDetailsClose" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="6" Height="40" Margin="10" IsDefault="True" Content="Close" FontSize = "16"/>
+    </Grid>    
+</Window>

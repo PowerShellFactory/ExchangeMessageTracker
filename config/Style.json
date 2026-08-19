@@ -1,0 +1,149 @@
+﻿{	
+	"MainForm":
+	{		
+		"FontFamily"            : "Arial",
+		"WindowStartupLocation" : "CenterScreen",
+		"ResizeMode"            : "CanResize",
+		"ShowInTaskbar"         : "True",
+		"Background"            : "White"
+	},
+	"TextBox":
+	{
+		"Foreground"               : "Black",
+		"Background"               : "White",
+		"FontSize"                 : "14",
+		"FontWeight"               : "Normal",
+		"TextAlignment"            : "Left",
+		"VerticalAlignment"        : "Top",
+		"HorizontalAlignment"      : "Stretch",
+		"Height"                   : "25",
+		"VerticalContentAlignment" : "Center",
+		"BorderThickness"          : "1"
+		
+	},
+	"Label":
+	{
+		"Foreground"               : "Black",
+		"Background"               : "White",
+		"FontSize"                 : "14",
+		"FontWeight"               : "Bold",			
+		"VerticalAlignment"        : "Top",
+		"HorizontalAlignment"      : "Stretch",
+		"Height"                   : "25"		
+	},
+	"CheckBox":
+	{
+		"Foreground"               : "Black",
+		"Background"               : "White",
+		"FontSize"                 : "14",
+		"FontWeight"               : "Bold",			
+		"VerticalAlignment"        : "Bottom",
+		"HorizontalAlignment"      : "Stretch",		
+		"Height"                   : "25"
+	},
+	"Button":
+	{
+		"Background"               : "Cornsilk",
+		"FontWeight"               : "Bold",
+		"FontSize"                 : "16",
+		"Height"                   : "40",
+		"VerticalAlignment"        : "Top",
+		"HorizontalAlignment"      : "Stretch"
+	},
+	"ComboBox":
+	{
+		"Foreground"               : "Black",
+		"Background"               : "White",
+		"FontSize"                 : "14",
+		"FontWeight"               : "Normal",			
+		"VerticalAlignment"        : "Top",
+		"HorizontalAlignment"      : "Left",
+		"Height"                   : "25",
+		"Width"                    : "80"
+	},
+	"ListBox":
+	{
+		"Foreground"               : "Black",
+		"Background"               : "White",
+		"FontSize"                 : "12",
+		"FontWeight"               : "Normal",
+		"BorderThickness"          : "0",
+		"VerticalAlignment"        : "Stretch",
+		"HorizontalAlignment"      : "Stretch"
+	},
+	"DatePicker":
+	{
+		"Foreground"               : "Black",
+		"Background"               : "White",
+		"Height"                   : "30",
+		"FontSize"                 : "14",
+		"FontWeight"               : "Normal",		
+		"VerticalAlignment"        : "top",
+		"HorizontalAlignment"      : "Stretch",
+		"FirstDayOfWeek"           : "Monday",
+		"VerticalContentAlignment" : "Center"
+	},
+	"GroupBox":
+	{
+		"Foreground"               : "Black",
+		"Background"               : "White",
+		"Height"                   : "300",
+		"FontSize"                 : "16",
+		"FontWeight"               : "Bold",
+		"BorderThickness"          : "2",
+		"BorderBrush"              : "Black"
+			
+	},
+	"TreeView":
+	{
+		"Foreground"               : "Black",
+		"Background"               : "White",		
+		"FontSize"                 : "12",
+		"FontWeight"               : "Bold",		
+		"VerticalAlignment"        : "Stretch",
+		"HorizontalAlignment"      : "Stretch"		
+	},
+	"DataGrid":
+	{
+		"Foreground"               : "Black",
+		"Background"               : "White",
+		"AlternatingRowBackground" : "Cornsilk",
+		"FontSize"                 : "14",
+		"FontWeight"               : "Normal",
+		"VerticalAlignment"        : "Stretch",
+		"HorizontalAlignment"      : "Stretch",
+		"AutoGenerateColumns"      : "True",
+		"IsReadOnly"               : "True",
+		"SelectionMode"            : "Single",
+		"ScrollViewer.CanContentScroll"              : "True",
+		"ScrollViewer.VerticalScrollBarVisibility"   : "Auto",
+		"ScrollViewer.HorizontalScrollBarVisibility" : "Auto"
+	},
+	"StatusBar":
+	{
+		"Foreground"               : "Black",
+		"Background"               : "White",
+		"Height"                   : "50",		
+		"FontSize"                 : "12",
+		"FontWeight"               : "Normal",		
+		"VerticalAlignment"        : "Top",
+		"HorizontalAlignment"      : "Stretch",
+		"BorderThickness"          : "1",
+		"BorderBrush"              : "Black"		
+	},
+	"TextBlock":
+	{
+		"Foreground"               : "Black",		
+		"FontSize"                 : "18",
+		"FontWeight"               : "Normal"
+		
+	},
+	"Expander":
+	{
+		"Background"               : "White",
+		"VerticalAlignment"        : "Stretch",
+		"HorizontalAlignment"      : "Stretch",
+		"IsExpanded"               : "False"
+	}
+		
+}

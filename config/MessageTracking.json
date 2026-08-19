@@ -1,0 +1,55 @@
+﻿{	
+	"Title"  : "Exchange Message Tracking (EMT)",
+	"Version": "1.0.0",
+	"StartTimeDifference":
+	{
+		"Hours"   : 24,
+		"Minutes" : 0
+	},
+	"EventID":
+	{
+		"Default": "SEND",
+		"IDs":
+		[
+			"All","AGENTINFO",
+			"BADMAIL",
+			"CLIENTSUBMISSION",
+			"DEFER","DELIVER","DELIVERFAIL","DROP","DSN",
+			"DUPLICATEDELIVER","DUPLICATEEXPAND","DUPLICATEREDIRECT",
+			"EXPAND",
+			"FAIL",
+			"HADISCARD","HARECEIVE","HAREDIRECT","HAREDIRECTFAIL",
+			"INITMESSAGECREATED",
+			"LOAD",
+			"MODERATIONEXPIRE","MODERATORAPPROVE","MODERATORREJECT","MODERATORSALLNDR",
+			"NOTIFYMAPI","NOTIFYSHADOW",
+			"POISONMESSAGE","PROCESS","PROCESSMEETINGMESSAGE",
+			"RECEIVE","REDIRECT","RESOLVE","RESUBMIT","RESUBMITDEFER","RESUBMITFAIL",
+			"SEND","SENDEXTERNAL","SUBMIT","SUBMITDEFER","SUBMITFAIL","SUPPRESSED",
+			"THROTTLE","TRANSFER"
+		]
+	},
+	"Severity":
+	{
+		"OK":
+		{
+			"Background": "PaleGreen",
+			"Foreground": "Black"
+		},
+		"WAR":
+		{
+			"Background": "Yellow",
+			"Foreground": "Black"
+		},
+		"ERR":
+		{
+			"Background": "Red",
+			"Foreground": "White"
+		}
+	},
+	"CSV":
+	{
+		"Encoding": "UTF8",
+		"Delimiter": ";"
+	}
+}

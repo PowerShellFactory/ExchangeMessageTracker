@@ -2,9 +2,8 @@
 
 A PowerShell/WPF GUI application for searching and analyzing Exchange Message Tracking logs.
 
-![alt text](image-1.png)
+![start-screen](image-1.png)
 
-Text neben dem Bild...
 
 ## ⚠️ Warning
 
